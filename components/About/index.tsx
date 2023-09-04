@@ -114,7 +114,7 @@ export default function About(): JSX.Element {
           <Box pos="relative">
             <Image
               id="avi"
-              src="/images/employee14.jpg"
+              src="/images/jude.jpg"
               width="300"
               height="300"
               alt="a photo of myself"
