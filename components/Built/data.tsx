@@ -28,6 +28,30 @@ export const items = [
   },
 
   {
+    link: "https://bazaar-demo.vercel.app/",
+    imgSrc: "/images/bazaar.png",
+    title: "Bazaar Car Market",
+    description: (): ReactNode => (
+      <>
+        Gain access to affordable cars and great offers with this easily accessible car marketplace.
+      </>
+    ),
+    tags: ["NextJS", "Prisma", "DaisyUI"],
+  },
+
+  {
+    link: "https://jude-ndagga-dev-portfolio-kappa.vercel.app/",
+    imgSrc: "/images/port.png",
+    title: "Personal site",
+    description: (): ReactNode => (
+      <>
+        A personal site where I showcase my projects.
+      </>
+    ),
+    tags: ["ReactJS", "Next.js", "Chakra UI"],
+  },
+
+  {
     link: "https://devsu-ganda-frontend-git-main-judendagga.vercel.app/",
     imgSrc: "/images/devsu.png",
     title: "DEVSUganda HR",
@@ -51,17 +75,7 @@ export const items = [
     ),
     tags: ["Unity", "C#"],
   },
-  {
-    link: "https://v1b3m.vercel.app/",
-    imgSrc: "/images/port.png",
-    title: "Personal site",
-    description: (): ReactNode => (
-      <>
-        A personal site where I showcase my projects.
-      </>
-    ),
-    tags: ["ReactJS", "Next.js", "Chakra UI"],
-  },
+  
   
   
   {
