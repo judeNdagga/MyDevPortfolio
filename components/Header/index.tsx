@@ -29,7 +29,7 @@ export default function Header({
       transition="transform 0.5s ease"
       boxShadow="0 3px 15px #122237"
       zIndex={100}
-      background="rgba(29, 53, 87, .95)"
+      background="brand.prussianBlue"
       backdropFilter="blur(4px)"
     >
       <Box />

@@ -13,30 +13,30 @@ export const items = [
         <br /> We connect you to the best construction material suppliers, contractors, and service providers in your area.
       </>
     ),
-    tags: ["ReactJS", "Fusion-Auth", "Apollo"],
+    tags: ["ReactJS", "Django", "Redux"],
   },
   {
-    link: "https://www.omanetug.org",
-    imgSrc: "/images/omanet.png",
-    title: "OMANET Uganda",
+    link: "https://mitsubishi-ug.vercel.app/",
+    imgSrc: "/images/mits.png",
+    title: "Mitsubishi Uganda",
     description: (): ReactNode => (
       <>
-        Build capacity and promote training, research and extension on organic production, health and nutrition.
+        Drive your ambition.
       </>
     ),
-    tags: ["ReactJS", "Redux", "CSS"],
+    tags: ["NextJS", "Tailwind", "Prisma"],
   },
 
   {
-    link: "https://bazaar-demo.vercel.app/",
-    imgSrc: "/images/bazaar.png",
-    title: "Bazaar Car Market",
+    link: "https://pelum-uganda.vercel.app/",
+    imgSrc: "/images/pelum.png",
+    title: "PELUM Monitoring And Evaluation System",
     description: (): ReactNode => (
       <>
-        Gain access to affordable cars and great offers with this easily accessible car marketplace.
+        Participatory Ecological Land Use Management (PELUM) Uganda : Networking for a greener Africa.
       </>
     ),
-    tags: ["NextJS", "Prisma", "DaisyUI"],
+    tags: ["NextJS", "Django", "Tailwind"],
   },
 
   {
@@ -52,16 +52,16 @@ export const items = [
   },
 
   {
-    link: "https://devsu-ganda-frontend-git-main-judendagga.vercel.app/",
-    imgSrc: "/images/devsu.png",
-    title: "DEVSUganda HR",
+    link: "https://play.google.com/store/apps/details?id=me.simonojok19.bus_stop&hl=en&gl=UG",
+    imgSrc:
+      "/images/bus.png",
+    title: "Bus Stop",
     description: (): ReactNode => (
       <>
-        
-        <br /> Keep track of employees and company projects with this easy-to-use human resource software.
+        I've developed some mobile apps as well that are available for review on the app store.
       </>
     ),
-    tags: ["ReactJS", "Django", "Material-UI"],
+    tags: ["React-Native", "Redux", "Firebase"],
   },
   
   {
@@ -78,16 +78,17 @@ export const items = [
   
   
   
+  
   {
-    link: "https://play.google.com/store/apps/details?id=me.simonojok19.bus_stop&hl=en&gl=UG",
-    imgSrc:
-      "/images/bus.png",
-    title: "React Native and Unity Mobile Apps",
+    link: "https://devsu-ganda-frontend-git-main-judendagga.vercel.app/",
+    imgSrc: "/images/devsu.png",
+    title: "DEVSUganda HR",
     description: (): ReactNode => (
       <>
-        I've developed some mobile apps as well that are available for review on the app store.
+        
+        <br /> Keep track of employees and company projects with this easy-to-use human resource software.
       </>
     ),
-    tags: ["React-Native", "Redux", "Firebase"],
+    tags: ["ReactJS", "Django", "Material-UI"],
   },
 ];

@@ -97,8 +97,8 @@ export default function About(): JSX.Element {
               </Box>
               <Box>
                 <Language language="Unity" />
-                <Language language="React Native" />
-                <Language language="JavaScript (ES6+)" />
+                <Language language="MongoDB" />
+                <Language language="Tailwind" />
               </Box>
             </Grid>
           </Box>
@@ -114,7 +114,7 @@ export default function About(): JSX.Element {
           <Box pos="relative">
             <Image
               id="avi"
-              src="/images/jude.jpg"
+              src="/images/pp.jpg"
               width="300"
               height="300"
               alt="a photo of myself"

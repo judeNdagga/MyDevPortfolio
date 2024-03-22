@@ -6,7 +6,7 @@ const colors = {
     honeyDew: "#f1faee",
     powderBlue: "#a8dadc",
     celadonBlue: "#457b9d",
-    prussianBlue: "#1d3557",
+    prussianBlue: "#37629e",
     yInMbBlue: "#2A4C7D",
   },
 };
