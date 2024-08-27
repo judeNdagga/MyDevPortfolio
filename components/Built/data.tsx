@@ -15,17 +15,7 @@ export const items = [
     ),
     tags: ["ReactJS", "Django", "Redux"],
   },
-  {
-    link: "https://mitsubishi-ug.vercel.app/",
-    imgSrc: "/images/mits.png",
-    title: "Mitsubishi Uganda",
-    description: (): ReactNode => (
-      <>
-        Drive your ambition.
-      </>
-    ),
-    tags: ["NextJS", "Tailwind", "Prisma"],
-  },
+  
 
   {
     link: "https://pelum-uganda.vercel.app/",
@@ -63,6 +53,18 @@ export const items = [
     ),
     tags: ["React-Native", "Redux", "Firebase"],
   },
+
+  {
+    link: "https://mitsubishi-ug.vercel.app/",
+    imgSrc: "/images/mits.png",
+    title: "Mitsubishi Uganda",
+    description: (): ReactNode => (
+      <>
+        Drive your ambition.
+      </>
+    ),
+    tags: ["NextJS", "Tailwind", "Prisma"],
+  },
   
   {
     link: "https://play.google.com/store/apps/details?id=com.scaron.mama&hl=en_US&gl=US",
@@ -79,16 +81,5 @@ export const items = [
   
   
   
-  {
-    link: "https://devsu-ganda-frontend-git-main-judendagga.vercel.app/",
-    imgSrc: "/images/devsu.png",
-    title: "DEVSUganda HR",
-    description: (): ReactNode => (
-      <>
-        
-        <br /> Keep track of employees and company projects with this easy-to-use human resource software.
-      </>
-    ),
-    tags: ["ReactJS", "Django", "Material-UI"],
-  },
+  
 ];
