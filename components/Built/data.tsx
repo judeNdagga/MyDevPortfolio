@@ -17,6 +17,46 @@ export const items = [
   },
   
 
+  
+
+  {
+    link: "https://play.google.com/store/apps/details?id=me.simonojok19.bus_stop&hl=en&gl=UG",
+    imgSrc:
+      "/images/bus.png",
+    title: "Bus Stop",
+    description: (): ReactNode => (
+      <>
+        I've developed some mobile apps as well that are available for review on the app store.
+      </>
+    ),
+    tags: ["React-Native", "Redux", "Firebase"],
+  },
+
+  {
+    link: "https://play.google.com/store/apps/details?id=com.scaron.mama&hl=en_US&gl=US",
+    imgSrc: "/images/mama.png",
+    title: "Mama Learning Platform",
+    description: (): ReactNode => (
+      <>
+        Extensive learning platform for children.
+      </>
+    ),
+    tags: ["Unity", "C#"],
+  },
+
+  {
+    link: "https://mitsubishi-ug.vercel.app/",
+    imgSrc: "/images/mits.png",
+    title: "Mitsubishi Uganda",
+    description: (): ReactNode => (
+      <>
+        Drive your ambition.
+      </>
+    ),
+    tags: ["NextJS", "Tailwind", "Prisma"],
+  },
+  
+ 
   {
     link: "https://pelum-uganda.vercel.app/",
     imgSrc: "/images/pelum.png",
@@ -39,43 +79,6 @@ export const items = [
       </>
     ),
     tags: ["ReactJS", "Next.js", "Chakra UI"],
-  },
-
-  {
-    link: "https://play.google.com/store/apps/details?id=me.simonojok19.bus_stop&hl=en&gl=UG",
-    imgSrc:
-      "/images/bus.png",
-    title: "Bus Stop",
-    description: (): ReactNode => (
-      <>
-        I've developed some mobile apps as well that are available for review on the app store.
-      </>
-    ),
-    tags: ["React-Native", "Redux", "Firebase"],
-  },
-
-  {
-    link: "https://mitsubishi-ug.vercel.app/",
-    imgSrc: "/images/mits.png",
-    title: "Mitsubishi Uganda",
-    description: (): ReactNode => (
-      <>
-        Drive your ambition.
-      </>
-    ),
-    tags: ["NextJS", "Tailwind", "Prisma"],
-  },
-  
-  {
-    link: "https://play.google.com/store/apps/details?id=com.scaron.mama&hl=en_US&gl=US",
-    imgSrc: "/images/mama.png",
-    title: "Mama Learning Platform",
-    description: (): ReactNode => (
-      <>
-        Extensive learning platform for children.
-      </>
-    ),
-    tags: ["Unity", "C#"],
   },
   
   
