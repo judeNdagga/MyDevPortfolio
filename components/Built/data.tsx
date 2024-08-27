@@ -4,7 +4,7 @@ import { ReactNode } from "react";
 export const items = [
   
   {
-    link: "https://www.ziramba.com/ug",
+    link: "https://marketplace.ziramba.com/rw#",
     imgSrc: "/images/ziramba.png",
     title: "Ziramba",
     description: (): ReactNode => (
