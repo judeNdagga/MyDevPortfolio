@@ -29,7 +29,7 @@ export const items = [
        We enable global and local access to quality training videos in local languages. 
       </>
     ),
-    tags: ["React-Native", "Redux", "Firebase"],
+    tags: ["React", "CSS", "PhP"],
   },
 
   {
