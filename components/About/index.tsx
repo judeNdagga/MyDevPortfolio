@@ -79,8 +79,8 @@ export default function About(): JSX.Element {
           {/* TO DO:  Motypes should be a link */}
           <Text textStyle="normal" m="1rem 0" display="inline">
             I&apos;ve built a number of websites, applications and Unity games for
-            both serious and trivial projects. I currently work at DEVSUganda
-            where we are building a lot of amazing stuff.
+            both serious and trivial projects. I currently work for OMANET
+            where I am finalizing on their website.
           </Text>
 
           <Text textStyle="normal" m="1rem 0">

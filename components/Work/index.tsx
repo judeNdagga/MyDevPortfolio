@@ -6,11 +6,11 @@ import { useWindowSize } from "../../hooks/useWindowSize";
 
 export type ActiveTab =
   | "ffp"
-  | "clutchtech"
+  | "AccessAgriculture"
   | "sudaplays"
   | "freelance"
   | "Ziramba"
-  | "devsuganda";
+  | "OMANET";
 
 interface CustomButtonProps {
   tabName: ActiveTab;
@@ -73,7 +73,7 @@ export default function Work(): JSX.Element {
     switch (activeTab) {
       case "Ziramba":
         return width > 768 ? "translateY(0)" : "translateX(0)";
-      case "devsuganda":
+      case "OMANET":
         return width > 768
           ? `translateY(${sliderHeight}px)`
           : `translateX(${sliderWidth}px)`;
@@ -85,7 +85,7 @@ export default function Work(): JSX.Element {
         return width > 768
           ? `translateY(${3 * sliderHeight}px)`
           : `translateX(${3 * sliderWidth}px)`;
-      case "clutchtech":
+      case "AccessAgriculture":
         return width > 768
           ? `translateY(${4 * sliderHeight}px)`
           : `translateX(${4 * sliderWidth}px)`;
@@ -99,12 +99,12 @@ export default function Work(): JSX.Element {
   const transform = getTransform();
 
   const tabToCompanyName: Record<ActiveTab, string> = {
-    clutchtech: "Clutch Tech",
+    AccessAgriculture: "Access Agriculture",
     sudaplays: "SudaPlays",
     ffp: "FFP MASHAMBA",
     freelance: "Freelance",
     Ziramba: "Ziramba",
-    devsuganda: "DEVSUganda",
+    OMANET: "OMANET",
   };
 
   return (
@@ -188,10 +188,10 @@ export default function Work(): JSX.Element {
               />
 
               <CustomButton
-                tabName="devsuganda"
+                tabName="OMANET"
                 activeTab={activeTab}
                 setActiveTab={setActiveTab}
-                text={tabToCompanyName.devsuganda}
+                text={tabToCompanyName.OMANET}
               />
 
               <CustomButton
@@ -209,10 +209,10 @@ export default function Work(): JSX.Element {
               />
 
               <CustomButton
-                tabName="clutchtech"
+                tabName="AccessAgriculture"
                 activeTab={activeTab}
                 setActiveTab={setActiveTab}
-                text={tabToCompanyName.clutchtech}
+                text={tabToCompanyName.AccessAgriculture}
               />
 
               <CustomButton

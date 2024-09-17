@@ -16,12 +16,12 @@ const data: Record<ActiveTab, WorkData> = {
       "I have worked as a fullstack developer for this company, and played a significant role in the development and maintenance of their web applications using technologies like React, Redux and Django."
     ],
   },
-  devsuganda: {
-    startDate: "April 2023",
+  OMANET: {
+    startDate: "April 2024",
     endDate: "Present",
     role: "Front-end developer",
     highlights: [
-      "I built a website and an admin dashboard using React/TypeScript. It is a human resource software that showcases the company's products and services. The admin dashboard is used to manage the company's employees, customers, and orders. React/TypeScript was a good choice for this project because it allowed me to build a user-friendly and responsive website and admin dashboard."
+      "I have built an educational/e-commerce website for this company with Next.js, Prisma and Tailwind."
     ],
   },
   ffp: {
@@ -42,12 +42,12 @@ const data: Record<ActiveTab, WorkData> = {
       "I have worked with Sudaplays on their online platform that mainly uses Construct 3 and Unity technologies to create new games as well as online PvP capability of said games."
     ],
   },
-  clutchtech: {
-    startDate: " Feb 2023",
-    endDate: "Present",
+  AccessAgriculture: {
+    startDate: " Feb 2022",
+    endDate: "July 2023",
     role: "Fullstack Developer",
     highlights: [
-      "I have built, and still currently build, multiple projects for various clientele in various areas like education, entertainment and healthcare for this company when called upon."
+      "I have worked as a front-end developer in their development of an organic, agricultural platform."
     ],
   },
   freelance: {
@@ -57,8 +57,7 @@ const data: Record<ActiveTab, WorkData> = {
     highlights: [
       "As a freelancer, I have built a wide variety of software applications, including iOS and Android apps, websites, games, learning platforms and APIs.",
       "I have experience with a variety of programming languages and technologies, including Firebase, JavaScript, TypeScript, React, React Native, Node.js and Unity.",
-      "I have experience working with both SQL and NoSQL databases.",
-      "I am also proficient in using cloud computing platforms such as Google Cloud Platform.",
+      
     ],
   },
 };

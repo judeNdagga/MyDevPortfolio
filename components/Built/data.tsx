@@ -20,16 +20,28 @@ export const items = [
   
 
   {
-    link: "https://play.google.com/store/apps/details?id=me.simonojok19.bus_stop&hl=en&gl=UG",
+    link: "https://www.accessagriculture.org/",
     imgSrc:
-      "/images/bus.png",
-    title: "Bus Stop",
+      "/images/access.png",
+    title: "Access Agriculture",
     description: (): ReactNode => (
       <>
-        I've developed some mobile apps as well that are available for review on the app store.
+       We enable global and local access to quality training videos in local languages. 
       </>
     ),
     tags: ["React-Native", "Redux", "Firebase"],
+  },
+
+  {
+    link: "https://pelum-uganda.vercel.app/",
+    imgSrc: "/images/dash.png",
+    title: "PELUM M&E System(Demo View)",
+    description: (): ReactNode => (
+      <>
+        Participatory Ecological Land Use Management (PELUM) Uganda : Networking for a greener Africa.
+      </>
+    ),
+    tags: ["NextJS", "Django", "Tailwind"],
   },
 
   {
@@ -45,6 +57,18 @@ export const items = [
   },
 
   {
+    link: "https://omanet.vercel.app/",
+    imgSrc: "/images/home2.png",
+    title: "OMANET Uganda",
+    description: (): ReactNode => (
+      <>
+        Eat Healthy. Eat Organic.
+      </>
+    ),
+    tags: ["NextJS", "Tailwind", "Prisma"],
+  },
+
+  {
     link: "https://mitsubishi-ug.vercel.app/",
     imgSrc: "/images/mits.png",
     title: "Mitsubishi Uganda",
@@ -57,17 +81,7 @@ export const items = [
   },
   
  
-  {
-    link: "https://pelum-uganda.vercel.app/",
-    imgSrc: "/images/pelum.png",
-    title: "PELUM Monitoring And Evaluation System",
-    description: (): ReactNode => (
-      <>
-        Participatory Ecological Land Use Management (PELUM) Uganda : Networking for a greener Africa.
-      </>
-    ),
-    tags: ["NextJS", "Django", "Tailwind"],
-  },
+ 
 
   {
     link: "https://jude-ndagga-dev-portfolio-kappa.vercel.app/",
