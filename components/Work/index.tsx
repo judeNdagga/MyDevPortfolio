@@ -5,11 +5,11 @@ import Content from "./Content";
 import { useWindowSize } from "../../hooks/useWindowSize";
 
 export type ActiveTab =
-  | "ffp"
+  | "ClutchTechnologies"
   | "AccessAgriculture"
   | "sudaplays"
   | "freelance"
-  | "Ziramba"
+  | "ZirambaStores"
   | "OMANET";
 
 interface CustomButtonProps {
@@ -53,7 +53,7 @@ function useButtonDimensions() {
   const [dimensions, setDimensions] = useState({ width: 0, height: 0 });
 
   useEffect(() => {
-    const button = document.getElementById("ffp");
+    const button = document.getElementById("Clutch Technologies");
     setDimensions({
       height: button?.offsetHeight || 0,
       width: button?.offsetWidth || 0,
@@ -64,20 +64,20 @@ function useButtonDimensions() {
 }
 
 export default function Work(): JSX.Element {
-  const [activeTab, setActiveTab] = useState<ActiveTab>("Ziramba");
+  const [activeTab, setActiveTab] = useState<ActiveTab>("ZirambaStores");
   const { width } = useWindowSize();
 
   const { width: sliderWidth, height: sliderHeight } = useButtonDimensions();
 
   const getTransform = useCallback(() => {
     switch (activeTab) {
-      case "Ziramba":
+      case "ZirambaStores":
         return width > 768 ? "translateY(0)" : "translateX(0)";
       case "OMANET":
         return width > 768
           ? `translateY(${sliderHeight}px)`
           : `translateX(${sliderWidth}px)`;
-      case "ffp":
+      case "ClutchTechnologies":
         return width > 768
           ? `translateY(${2 * sliderHeight}px)`
           : `translateX(${2 * sliderWidth}px)`;
@@ -101,9 +101,9 @@ export default function Work(): JSX.Element {
   const tabToCompanyName: Record<ActiveTab, string> = {
     AccessAgriculture: "Access Agriculture",
     sudaplays: "SudaPlays",
-    ffp: "FFP MASHAMBA",
+    ClutchTechnologies: "Clutch Technologies",
     freelance: "Freelance",
-    Ziramba: "Ziramba",
+    ZirambaStores: "Ziramba Stores",
     OMANET: "OMANET",
   };
 
@@ -181,10 +181,10 @@ export default function Work(): JSX.Element {
           <Box>
             <Flex flexDir={{ md: "column" }}>
               <CustomButton
-                tabName="Ziramba"
+                tabName="ZirambaStores"
                 activeTab={activeTab}
                 setActiveTab={setActiveTab}
-                text={tabToCompanyName.Ziramba}
+                text={tabToCompanyName["ZirambaStores"]}
               />
 
               <CustomButton
@@ -195,10 +195,10 @@ export default function Work(): JSX.Element {
               />
 
               <CustomButton
-                tabName="ffp"
+                tabName="ClutchTechnologies"
                 activeTab={activeTab}
                 setActiveTab={setActiveTab}
-                text={tabToCompanyName.ffp}
+                text={tabToCompanyName["ClutchTechnologies"]}
               />
 
               <CustomButton
